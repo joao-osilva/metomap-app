@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "key": "joao_silva",
+      "name": "João Silva",
+      "img": "assets/img/img-joao.png",
+      "socialNetworks": {
+        "website": "throughaglass.io",
+        "linkedin": "@joao-osilva",
+        "github": "@joao-osilva"
+      }
+    },
+    {
+      "key": "valdemir_franca",
+      "name": "Valdemir França",
+      "img": "assets/img/test_avatar.png",
+      "socialNetworks": {
+        "linkedin": "@valdemir",
+        "twitter": "@valdemir",
+        "googleplus": "@valdemir"
+      }
+    },
+    {
+      "key": "fabio_proetti",
+      "name": "Fábio Proetti",
+      "img": "assets/img/test_avatar.png",
+      "socialNetworks": {
+        "linkedin": "@fabio",
+        "twitter": "@fabio",
+        "googleplus": "@fabio"
+      }
+    },
+    {
+      "key": "daiane_araujo",
+      "name": "Daiane Araújo",
+      "img": "assets/img/test_avatar.png",
+      "socialNetworks": {
+        "linkedin": "@daiane",
+        "twitter": "@daiane",
+        "googleplus": "@daiane"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "name": "facebook",
+      "description": "Nos Curta no Facebook",
+      "img": "assets/icon/facebook-logo-icon.png",
+      "linkUrl": "https://www.facebook.com/universidade.metodista"
+    },
+    {
+      "name": "twitter",
+      "description": "Nos Siga no Twitter",
+      "img": "assets/icon/twitter-logo-icon.png",
+      "linkUrl": "https://twitter.com/metodista"
+    },
+    {
+      "name": "youtube",
+      "description": "Nos Assista no Youtube",
+      "img": "assets/icon/youtube-logo-icon.png",
+      "linkUrl": "http://www.youtube.com/user/MetodistaWebTV"
+    },
+    {
+      "name": "flickr",
+      "description": "Nos Acompanhe no Flickr",
+      "img": "assets/icon/flickr-logo-icon.png",
+      "linkUrl": "https://www.flickr.com/photos/metodista-br"
+    },
+    {
+      "name": "instagram",
+      "description": "Nos Siga no Instagram",
+      "img": "assets/icon/instagram-logo-icon.png",
+      "linkUrl": "https://www.instagram.com/metodista/"
+    },
+    {
+      "name": "linkedin",
+      "description": "Nos Acompanhe no Linkedin",
+      "img": "assets/icon/linkedin-logo-icon.png",
+      "linkUrl": "http://www.linkedin.com/company/universidade-metodista-de-sao-paulo"
+    },
+    {
+      "name": "vimeo",
+      "description": "Nos Assista no Vimeo",
+      "img": "assets/icon/vimeo-logo-icon.png",
+      "linkUrl": "http://vimeo.com/univmetodista/"
+    }
+  ]
+}

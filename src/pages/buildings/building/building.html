@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Edifício</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="building">
+  <ion-card>
+    <ion-card-content>
+      <img src="{{buildingInfo?.img}}"/>
+      <h2>{{buildingInfo?.name}}</h2>
+    </ion-card-content>
+    <ion-list>
+      <ion-item *ngFor="let room of buildingInfo?.rooms">
+        {{room.name}}
+        <button ion-button outline item-left>{{room.number}}</button>
+        <button ion-button item-right clear icon-only *ngIf="room.phone" (click)="onCallRoom(room.phone)">
+          <ion-icon name="call"></ion-icon>
+        </button>
+        <p>{{room.phone}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-card>
+</ion-content>

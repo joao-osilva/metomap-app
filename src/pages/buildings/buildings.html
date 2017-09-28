@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Edifícios</ion-title>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-searchbar (ionInput)="getItems($event)" placeholder="Procure a sala pelo número ou nome"
+                   [(ngModel)]="searchQuery">
+    </ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="buildings">
+
+  <ion-list no-lines>
+    <div *ngIf="isSearchOff">
+      <button *ngFor="let building of buildingsInfo" ion-item (click)="onViewBuildingInfo(building?.key)">
+        <img item-left src="{{building?.img}}">
+        <h2>{{building?.name}}</h2>
+      </button>
+    </div>
+    <div *ngIf="!isSearchOff">
+      <ion-item *ngFor="let building of filteredBuildings" (click)="onViewBuildingInfo(building?.key)">
+        <img item-left src="{{building?.img}}">
+        <h2>{{building?.name}}</h2>
+        <p *ngFor="let room of building?.rooms">
+          {{room?.number}} • {{room?.name}}
+        </p>
+      </ion-item>
+    </div>
+  </ion-list>
+</ion-content>

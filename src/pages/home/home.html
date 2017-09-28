@@ -1,17 +1,36 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Mapa</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content>
+  <div class="item-div">
+    <ion-item>
+      <img src="assets/icon/home-start-icon.png" item-left/>
+      <ion-label floating>Origem</ion-label>
+      <ion-select [(ngModel)]="fromBuilding" cancelText="Cancelar" [selectOptions]="fromOpts"
+                  (ionChange)="buildingsSelected()">
+        <ion-option *ngFor="let building of buildings" [value]="building?.key">{{building?.name}}</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <img src="assets/icon/home-finish-icon.png" item-left/>
+      <ion-label floating>Destino</ion-label>
+      <ion-select [(ngModel)]="toBuilding" cancelText="Cancelar" [selectOptions]="toOpts"
+                  (ionChange)="buildingsSelected()">
+        <ion-option *ngFor="let building of buildings" [value]="building?.key">{{building?.name}}</ion-option>
+      </ion-select>
+    </ion-item>
+  </div>
+  <div class="img-div">
+    <img src="assets/icon/home-map-icon.png"/>
+  </div>
+  <div class="button-div">
+    <button ion-button round color="primary" (click)="onViewMap()" [disabled]="isButtonDisabled">
+      Mapa
+    </button>
+  </div>
 </ion-content>
+

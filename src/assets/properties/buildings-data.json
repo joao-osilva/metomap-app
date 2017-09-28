@@ -1,0 +1,417 @@
+{
+  "data": [
+    {
+      "key": "colegio_metodista",
+      "name": "Colégio Metodista",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "M-240",
+          "name": "Secretaria de comunicação"
+        },
+        {
+          "number": "O-540",
+          "name": "Secretaria de exatas",
+          "phone": "+55 (11) 1234-5678"
+        },
+        {
+          "number": "O-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        },
+        {
+          "number": "O-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "beta",
+      "name": "Beta",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "B-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "gama",
+      "name": "Gama",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "G-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "psi",
+      "name": "Psi",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "P-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "anexo_omicron",
+      "name": "Anexo Ômicron",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "O-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "lambda",
+      "name": "Lâmbda",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "L-540",
+          "name": "Secretaria de exatas",
+          "phone": "+55 (11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "omicron",
+      "name": "Ômicron",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "O-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "sigma",
+      "name": "Sigma",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "S-540",
+          "name": "Secretaria de exatas"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "ni",
+      "name": "Ní",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "N-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "epsilon",
+      "name": "Épsilon",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "E-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "delta",
+      "name": "Delta",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "D-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "capela_metodista",
+      "name": "Capela Metodista",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "C-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "ipsilon",
+      "name": "Ípsilon",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "I-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "fi",
+      "name": "Fi",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "F-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "ginasio_de_esportes",
+      "name": "Ginásio de Esportes",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "L-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "teta",
+      "name": "Teta",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "T-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "omega",
+      "name": "Ômega",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "O-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "iota",
+      "name": "Iota",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "I-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "capa",
+      "name": "Capa",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "C-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "anexo_fi",
+      "name": "Anexo Fi",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "F-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "alfa",
+      "name": "Alfa",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "A-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "eta",
+      "name": "Eta",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "E-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "ro",
+      "name": "Ró",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "R-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "casa_de_eventos",
+      "name": "Casa de Eventos",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "C-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    },
+    {
+      "key": "zeta",
+      "name": "Zeta",
+      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "rooms": [
+        {
+          "number": "Z-540",
+          "name": "Secretaria de exatas",
+          "phone": "(11) 1234-5678"
+        }
+      ],
+      "coordinates": {
+        "x": 10,
+        "y": 20
+      }
+    }
+  ]
+}

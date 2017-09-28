@@ -1,11 +1,84 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      Sobre
     </ion-title>
   </ion-navbar>
 </ion-header>
-
-<ion-content padding>
-
+ionic platform ad
+<ion-content>
+  <div class="img-div">
+    <img src="assets/icon/metomap-logo.png"/>
+    <p>{{appVersion}}</p>
+  </div>
+  <ion-card class="institucional">
+    <ion-card-header>
+      Institucional
+    </ion-card-header>
+    <ion-card-content>
+      <p>asdasdasdasdasdasda asdasdasdasdasdasda</p>
+      <p>asdasdasdasdasdasda asdasdasdasdasdasda</p>
+      <p>asdasdasdasdasdasda asdasdasdasdasdasda</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-card class="social-medias">
+    <ion-card-header>
+      Redes Sociais
+    </ion-card-header>
+    <ion-card-content>
+      <ion-row>
+        <ion-col col-6>
+          <div *ngFor="let media of socialMediasInfo">
+            <button detail-none ion-item no-lines *ngIf="['facebook','youtube','instagram','vimeo'].includes(media?.name)" (click)="openLink(media?.linkUrl)">
+                <img src="{{media?.img}}">
+              </button>
+            </div>
+        </ion-col>
+        <ion-col col-6>
+            <div *ngFor="let media of socialMediasInfo">
+                <button detail-none ion-item no-lines *ngIf="['twitter','flickr','linkedin'].includes(media?.name)" (click)="openLink(media?.linkUrl)">
+                    <img src="{{media?.img}}">
+                  </button>
+                </div>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+  <ion-card class="app-creators">
+    <ion-card-header>
+      Criadores
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item *ngFor="let creator of appCreatorsInfo">
+        <ion-avatar item-left>
+          <img src="{{creator?.img}}">
+        </ion-avatar>
+        <h3>{{creator?.name}}</h3>
+        <ion-row>
+          <ion-col>
+            <p *ngIf="creator?.socialNetworks.website">
+              <ion-icon name="contact"></ion-icon>
+              {{creator?.socialNetworks.website}}
+            </p>
+            <p *ngIf="creator?.socialNetworks.linkedin">
+              <ion-icon name="logo-linkedin"></ion-icon>
+              {{creator?.socialNetworks.linkedin}}
+            </p>
+            <p *ngIf="creator?.socialNetworks.github">
+              <ion-icon name="logo-github"></ion-icon>
+              {{creator?.socialNetworks.github}}
+            </p>
+            <p *ngIf="creator?.socialNetworks.twitter">
+              <ion-icon name="logo-twitter"></ion-icon>
+              {{creator?.socialNetworks.twitter}}
+            </p>
+            <p *ngIf="creator?.socialNetworks.googleplus">
+              <ion-icon name="logo-googleplus"></ion-icon>
+              {{creator?.socialNetworks.googleplus}}
+            </p>
+          </ion-col>
+        </ion-row>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

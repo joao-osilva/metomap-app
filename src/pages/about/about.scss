@@ -1,3 +1,68 @@
 page-about {
-
+  .img-div {
+    img {
+      height: 50%;
+      width: 50%;
+      margin-top: 5%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    p {
+      color: grey;
+      width: 15%;
+      font-size: 100%;
+      font-weight: bold;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+  }
+  .institucional{
+    ion-card-content{
+      p{
+        font-size: 100%;
+      }
+    }
+  }
+  .social-medias {
+    ion-card-content {
+        ion-row{
+          ion-col{
+            button {
+              padding-left: 5px;
+              img {
+                width: 40%;
+                height: 40%;
+                margin-left: auto !important;
+                margin-right: auto !important;
+              }
+            }
+          }
+        }
+    }
+  }
+  .app-creators {
+    ion-card-content {
+      ion-item {
+        ion-label {
+          padding-left: 10px;
+        }
+        ion-avatar {
+          img {
+            width: 100% !important;
+            height: 100% !important;
+            max-width: 50px !important; //any size
+            max-height: 50px !important; //any size
+          }
+        }
+        h3{
+          font-size: 100%;
+        }
+        p{
+          font-size: 100%;
+        }
+      }
+    }
+  }
 }
