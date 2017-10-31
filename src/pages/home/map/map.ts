@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {ElementRef} from '@angular/core';
 import {ViewChild} from '@angular/core';
-import {NavParams} from 'ionic-angular';
+import {NavParams, Content} from 'ionic-angular';
 
 declare var Graph: any;
 declare var astar: any;
@@ -11,6 +11,7 @@ declare var astar: any;
   templateUrl: 'map.html'
 })
 export class MapPage {
+  @ViewChild('content') content : Content;
 
   @ViewChild('canvas') canvasEl : ElementRef;
   private _CANVAS  : any;
@@ -29,7 +30,7 @@ export class MapPage {
 
   initCanvas() {
     this._CANVAS 		    = this.canvasEl.nativeElement;
-    this._CANVAS.width  	= 1808;
+    this._CANVAS.width  	= 1760;
     this._CANVAS.height 	= 1616;
     this._CANVAS.addEventListener('click', (event) => { this.dbClickScreen(event)});
 
@@ -148,9 +149,6 @@ export class MapPage {
         ,[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
         ,[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
         ,[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
-
-
-
       ];
 
       console.log("tileMap.length=" , tileMap.length);
@@ -163,12 +161,11 @@ export class MapPage {
       //create node list
       var start = graph.nodes[startNode.x][startNode.y];
       var end = graph.nodes[endNode.x][endNode.y];
-      var result = astar.search(graph.nodes, start, end, false);
+      var result = astar.search(graph.nodes, start, end, true);
 
       var tileSheet = new Image();
-      tileSheet.src = "assets/img/mapa-metodista.png";
+      tileSheet.src = "assets/img/img-mapa_campus_rudge_ramos.png";
       tileSheet.onload = () => {
-
         this._CONTEXT.drawImage(tileSheet,0,0);
 
         //draw green circle at start node
@@ -197,6 +194,8 @@ export class MapPage {
           this._CONTEXT.stroke();
           this._CONTEXT.closePath();
         }
+
+        this._CONTEXT.translate(100,100);
       };//end onload
     }//end if
   }//end init()
