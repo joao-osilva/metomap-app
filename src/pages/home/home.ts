@@ -16,8 +16,9 @@ export class HomePage {
   toOpts: { title: string, subTitle: string };
   isButtonDisabled: boolean;
 
-  constructor(public navCtrl: NavController, private buildingsInfoService: BuildingsInfoService, private alertCtrl: AlertController) {
-  }
+  constructor(private navCtrl: NavController,
+              private buildingsInfoService: BuildingsInfoService,
+              private alertCtrl: AlertController) {}
 
   ionViewWillEnter() {
     this.initialSetUp();
