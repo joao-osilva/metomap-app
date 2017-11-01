@@ -4,13 +4,12 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding no-bounce>
+<ion-content>
   <div class="img-div">
     <img src="assets/icon/metomap-icon.png"/>
   </div>
   <div class="item-div">
     <ion-item no-lines>
-      <!--<img src="assets/icon/home-start-icon.png" item-left/>-->
       <ion-select [(ngModel)]="fromBuilding" cancelText="Cancelar" [selectOptions]="fromOpts"
                   (ionChange)="buildingsSelected()" placeholder="Escolha o seu ponto de Origem">
         <ion-option *ngFor="let building of buildings" [value]="building?.key">{{building?.name}}</ion-option>
@@ -18,8 +17,6 @@
     </ion-item>
 
     <ion-item no-lines>
-      <!--<img src="assets/icon/home-finish-icon.png" item-left/>-->
-      <!--<ion-label floating text-center>Destino</ion-label>-->
       <ion-select [(ngModel)]="toBuilding" cancelText="Cancelar" [selectOptions]="toOpts"
                   (ionChange)="buildingsSelected()" placeholder="Escolha o seu ponto de Destino">
         <ion-option *ngFor="let building of buildings" [value]="building?.key">{{building?.name}}</ion-option>

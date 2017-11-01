@@ -13,17 +13,17 @@
     {
       "key": "valdemir_franca",
       "name": "Valdemir França",
-      "img": "assets/img/test_avatar.png",
+      "img": "assets/img/img-valdemir.png",
       "socialNetworks": {
         "linkedin": "@valdemir",
         "twitter": "@valdemir",
-        "googleplus": "@valdemir"
+        "github": "@valdeco"
       }
     },
     {
       "key": "fabio_proetti",
       "name": "Fábio Proetti",
-      "img": "assets/img/test_avatar.png",
+      "img": "assets/img/img-fabio.png",
       "socialNetworks": {
         "linkedin": "@fabio",
         "twitter": "@fabio",
@@ -33,11 +33,22 @@
     {
       "key": "daiane_araujo",
       "name": "Daiane Araújo",
-      "img": "assets/img/test_avatar.png",
+      "img": "assets/img/img-daiana.png",
       "socialNetworks": {
         "linkedin": "@daiane",
         "twitter": "@daiane",
         "googleplus": "@daiane"
+      }
+    },
+    {
+      "key": "rafael_sakurai",
+      "name": "Rafael Sakurai",
+      "img": "assets/img/img-rafael.png",
+      "socialNetworks": {
+        "website": "rafaelsakurai.github.io",
+        "linkedin": "@rafaelsakurai",
+        "twitter": "@rafaelsakurai",
+        "github": "@rafaelsakurai"
       }
     }
   ]
