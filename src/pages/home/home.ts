@@ -52,9 +52,16 @@ export class HomePage {
   }
 
   onViewMap() {
-    if (this.fromBuilding == this.toBuilding) {
-      this.showSameSelectionAlert();
-    } else {
+    if (!this.fromBuilding) {
+      this.showAlert('Escolha a origem!', 'A origem não foi selecionada');
+    }
+    else if (!this.toBuilding) {
+      this.showAlert('Escolha o destino!', 'O destino não foi selecionado');
+    }
+    else if (this.fromBuilding == this.toBuilding) {
+      this.showAlert('Escolha pontos diferentes!', 'A origem e o destino não podem ser iguais');
+    }
+    else {
       this.navCtrl.push(MapPage, {startNode: this.getBuildingCoordinates(this.fromBuilding),
                                   endNode: this.getBuildingCoordinates(this.toBuilding)});
     }
@@ -71,10 +78,10 @@ export class HomePage {
     }
   }
 
-  showSameSelectionAlert() {
+  showAlert(title: string, subTitle: string) {
     let alert = this.alertCtrl.create({
-      title: 'Escolha pontos diferentes!',
-      subTitle: 'A origem e o destino não podem ser iguais',
+      title: title,
+      subTitle: subTitle,
       buttons: ['OK']
     });
     alert.present();

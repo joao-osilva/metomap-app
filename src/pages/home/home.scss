@@ -24,16 +24,22 @@ page-home {
     }
   }
   .item-div {
-    margin-top: 5%;
     ion-item {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 85% !important;
+
       ion-select {
-        font-weight: bold;
-        font-size: 80%;
-        margin-top: 5%;
+        font-size: 90%;
         margin-left: auto;
         margin-right: auto;
-        background-color: #e9eaec;
-        min-width: 100% !important;
+        min-width: 80% !important;
+      }
+
+      ion-label {
+        font-size: 100%;
+        color: grey;
+        font-weight: bold;
       }
     }
   }

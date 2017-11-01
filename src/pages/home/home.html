@@ -9,16 +9,18 @@
     <img src="assets/icon/metomap-icon.png"/>
   </div>
   <div class="item-div">
-    <ion-item no-lines>
+    <ion-item>
+      <ion-label floating>Origem</ion-label>
       <ion-select [(ngModel)]="fromBuilding" cancelText="Cancelar" [selectOptions]="fromOpts"
-                  (ionChange)="buildingsSelected()" placeholder="Escolha o seu ponto de Origem">
+                  (ionChange)="buildingsSelected()">
         <ion-option *ngFor="let building of buildings" [value]="building?.key">{{building?.name}}</ion-option>
       </ion-select>
     </ion-item>
 
-    <ion-item no-lines>
+    <ion-item>
+      <ion-label floating>Destino</ion-label>
       <ion-select [(ngModel)]="toBuilding" cancelText="Cancelar" [selectOptions]="toOpts"
-                  (ionChange)="buildingsSelected()" placeholder="Escolha o seu ponto de Destino">
+                  (ionChange)="buildingsSelected()">
         <ion-option *ngFor="let building of buildings" [value]="building?.key">{{building?.name}}</ion-option>
       </ion-select>
     </ion-item>
