@@ -5,20 +5,35 @@
     </ion-title>
   </ion-navbar>
 </ion-header>
-ionic platform ad
-<ion-content>
+
+<ion-content padding no-bounce>
   <div class="img-div">
-    <img src="assets/icon/metomap-logo.png"/>
-    <p>{{appVersion}}</p>
+    <img src="assets/icon/metomap-icon.png"/>
+    <p>V{{appVersion}}</p>
   </div>
   <ion-card class="institucional">
     <ion-card-header>
       Institucional
     </ion-card-header>
     <ion-card-content>
-      <p>asdasdasdasdasdasda asdasdasdasdasdasda</p>
-      <p>asdasdasdasdasdasda asdasdasdasdasdasda</p>
-      <p>asdasdasdasdasdasda asdasdasdasdasdasda</p>
+      <h2><strong>Missão</strong></h2>
+      <p>Participar efetivamente na formação de pessoas, exercendo poder de influência e contribuindo na melhoria da
+        qualidade de vida, baseada em conhecimento e valores éticos.<br><br></p>
+
+
+      <h2><strong>Visão</strong></h2>
+      <p>Ser referência educacional na construção de uma comunidade aprendente, reconhecida nacional e
+        internacionalmente por serviços de qualidade e relevância social, com práticas flexíveis, criativas e
+        inovadoras.<br><br></p>
+
+      <h2><strong>Valores Essenciais</strong></h2>
+      <ul>
+        <li>Desenvolvimento de consciência crítica da realidade;</li>
+        <li>Desenvolvimento de senso de justiça e de solidariedade, e de sua prática, inclusive nas relações de trabalho;</li>
+        <li>Prática reflexiva voltada para o âmbito da espiritualidade cristã;</li>
+        <li>Desenvolvimento da consciência de que os interesses social e individual são igualmente importantes para o equilíbrio das relações sociais;</li>
+        <li>Inovação e criatividade subordinadas à ética, na construção e socialização do conhecimento.</li>
+      </ul>
     </ion-card-content>
   </ion-card>
   <ion-card class="social-medias">
@@ -28,18 +43,21 @@ ionic platform ad
     <ion-card-content>
       <ion-row>
         <ion-col col-6>
-          <div *ngFor="let media of socialMediasInfo">
-            <button detail-none ion-item no-lines *ngIf="['facebook','youtube','instagram','vimeo'].includes(media?.name)" (click)="openLink(media?.linkUrl)">
-                <img src="{{media?.img}}">
-              </button>
-            </div>
+          <div *ngFor="let media of socialMediasInfo" class="img-social">
+            <button detail-none ion-item no-lines
+                    *ngIf="['facebook','youtube','instagram','vimeo'].includes(media?.name)"
+                    (click)="openLink(media?.linkUrl)">
+              <img src="{{media?.img}}">
+            </button>
+          </div>
         </ion-col>
         <ion-col col-6>
-            <div *ngFor="let media of socialMediasInfo">
-                <button detail-none ion-item no-lines *ngIf="['twitter','flickr','linkedin'].includes(media?.name)" (click)="openLink(media?.linkUrl)">
-                    <img src="{{media?.img}}">
-                  </button>
-                </div>
+          <div *ngFor="let media of socialMediasInfo" class="img-social">
+            <button detail-none ion-item no-lines *ngIf="['twitter','flickr','linkedin'].includes(media?.name)"
+                    (click)="openLink(media?.linkUrl)">
+              <img src="{{media?.img}}">
+            </button>
+          </div>
         </ion-col>
       </ion-row>
     </ion-card-content>

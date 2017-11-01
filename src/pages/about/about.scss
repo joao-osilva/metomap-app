@@ -1,9 +1,8 @@
 page-about {
   .img-div {
     img {
-      height: 50%;
-      width: 50%;
-      margin-top: 5%;
+      height: 30%;
+      width: 30%;
       margin-left: auto;
       margin-right: auto;
       display: block;
@@ -18,28 +17,28 @@ page-about {
       display: block;
     }
   }
-  .institucional{
-    ion-card-content{
-      p{
+  .institucional {
+    ion-card-content {
+      p {
         font-size: 100%;
       }
     }
   }
   .social-medias {
     ion-card-content {
-        ion-row{
-          ion-col{
-            button {
-              padding-left: 5px;
-              img {
-                width: 40%;
-                height: 40%;
-                margin-left: auto !important;
-                margin-right: auto !important;
-              }
+      ion-row {
+        ion-col {
+          button {
+            padding-left: 5px;
+            img {
+              width: 40%;
+              height: 40%;
+              margin-left: auto !important;
+              margin-right: auto !important;
             }
           }
         }
+      }
     }
   }
   .app-creators {
@@ -56,13 +55,22 @@ page-about {
             max-height: 50px !important; //any size
           }
         }
-        h3{
+        h3 {
           font-size: 100%;
         }
-        p{
+        p {
           font-size: 100%;
         }
       }
     }
+  }
+  .img-social {
+    button {
+      img {
+        max-width: 30%;
+        max-height: 30%;
+      }
+    }
+
   }
 }

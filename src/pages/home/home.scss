@@ -3,7 +3,6 @@ page-home {
     img {
       height: 50%;
       width: 50%;
-      margin-top: 10%;
       margin-left: auto;
       margin-right: auto;
       display: block;
@@ -11,33 +10,29 @@ page-home {
   }
   .button-div {
     button {
+      background-color: #2a5181;
       width: 60%;
       font-weight: bold;
-      margin-top: 10%;
+      margin-top: 20%;
       margin-left: auto;
       margin-right: auto;
       display: block;
     }
+    button.activated {
+      background-color: #27456c;
+    }
   }
   .item-div {
     margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 10%;
-
     ion-item {
-      img {
-        height: 9%;
-        width: 9%;
-        margin-top: 15%;
+      ion-select {
+        font-weight: bold;
+        font-size: 80%;
+        margin-top: 5%;
         margin-left: auto;
         margin-right: auto;
-        display: block;
-      }
-
-      ion-label {
-        font-size: 100%;
-        color: grey;
-        font-weight: 500;
+        background-color: #e9eaec;
+        min-width: 100% !important;
       }
     }
   }

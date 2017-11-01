@@ -41,7 +41,7 @@ export class HomePage {
     };
 
     // disable button
-    this.isButtonDisabled = true;
+    this.isButtonDisabled = false;
   }
 
   getBuildingsInfo() {
