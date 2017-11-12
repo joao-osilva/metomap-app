@@ -1,0 +1,268 @@
+{
+  "data": [
+    {
+      "key": "gama",
+      "name": "Gama",
+      "coordinates": {
+        "x": 38,
+        "y": 22
+      }
+    },
+    {
+      "key": "psi",
+      "name": "Psi",
+      "coordinates": {
+        "x": 52,
+        "y": 30
+      }
+    },
+    {
+      "key": "salao_nobre",
+      "name": "Salão Nobre",
+      "coordinates": {
+        "x": 71,
+        "y": 9
+      }
+    },
+    {
+      "key": "cc_teo",
+      "name": "C.C Teo",
+      "coordinates": {
+        "x": 80,
+        "y": 28
+      }
+    },
+    {
+      "key": "lambda_1",
+      "name": "Lambda (Entrada 1)",
+      "coordinates": {
+        "x": 58,
+        "y": 32
+      }
+    },
+    {
+      "key": "lambda_2",
+      "name": "Lambda (Entrada 2)",
+      "coordinates": {
+        "x": 58,
+        "y": 37
+      }
+    },
+    {
+      "key": "lambda_3",
+      "name": "Lambda (Entrada 3)",
+      "coordinates": {
+        "x": 69,
+        "y": 37
+      }
+    },
+    {
+      "key": "atendimento_aluno",
+      "name": "Atendimento Aluno",
+      "coordinates": {
+        "x": 79,
+        "y": 34
+      }
+    },
+    {
+      "key": "omicron",
+      "name": "Omicrôn",
+      "coordinates": {
+        "x": 75,
+        "y": 44
+      }
+    },
+    {
+      "key": "sigma",
+      "name": "Sigma",
+      "coordinates": {
+        "x": 75,
+        "y": 54
+      }
+    },
+    {
+      "key": "reitoria",
+      "name": "Reitoria",
+      "coordinates": {
+        "x": 83,
+        "y": 61
+      }
+    },
+    {
+      "key": "epsilon",
+      "name": "Épsilon",
+      "coordinates": {
+        "x": 75,
+        "y": 69
+      }
+    },
+    {
+      "key": "ro",
+      "name": "Ró",
+      "coordinates": {
+        "x": 83,
+        "y": 85
+      }
+    },
+    {
+      "key": "casa_eventos",
+      "name": "Casa de Eventos",
+      "coordinates": {
+        "x": 94,
+        "y": 90
+      }
+    },
+    {
+      "key": "eta",
+      "name": "Eta",
+      "coordinates": {
+        "x": 75,
+        "y": 85
+      }
+    },
+    {
+      "key": "zeta",
+      "name": "Zeta",
+      "coordinates": {
+        "x": 82,
+        "y": 94
+      }
+    },
+    {
+      "key": "alfa",
+      "name": "Alfa",
+      "coordinates": {
+        "x": 55,
+        "y": 94
+      }
+    },
+    {
+      "key": "delta_1",
+      "name": "Delta (Entrada 1)",
+      "coordinates": {
+        "x": 58,
+        "y": 76
+      }
+    },
+    {
+      "key": "delta_2",
+      "name": "Delta (Entrada 2)",
+      "coordinates": {
+        "x": 68,
+        "y": 76
+      }
+    },
+    {
+      "key": "delta_3",
+      "name": "Delta (Entrada 3)",
+      "coordinates": {
+        "x": 46,
+        "y": 76
+      }
+    },
+    {
+      "key": "delta_4",
+      "name": "Delta (Entrada 4)",
+      "coordinates": {
+        "x": 40,
+        "y": 79
+      }
+    },
+    {
+      "key": "delta_5",
+      "name": "Delta (Entrada 5)",
+      "coordinates": {
+        "x": 57,
+        "y": 81
+      }
+    },
+    {
+      "key": "anexo_fi",
+      "name": "Anexo Fi",
+      "coordinates": {
+        "x": 26,
+        "y": 92
+      }
+    },
+    {
+      "key": "capa_1",
+      "name": "Capa (Entrada 1)",
+      "coordinates": {
+        "x": 19,
+        "y": 82
+      }
+    },
+    {
+      "key": "capa_2",
+      "name": "Capa (Entrada 2)",
+      "coordinates": {
+        "x": 10,
+        "y": 75
+      }
+    },
+    {
+      "key": "iota",
+      "name": "Iota",
+      "coordinates": {
+        "x": 15,
+        "y": 61
+      }
+    },
+    {
+      "key": "teta",
+      "name": "Teta",
+      "coordinates": {
+        "x": 13,
+        "y": 59
+      }
+    },
+    {
+      "key": "ginasio_esportes",
+      "name": "Ginásio de Esportes",
+      "coordinates": {
+        "x": 20,
+        "y": 45
+      }
+    },
+    {
+      "key": "ipsilon_1",
+      "name": "Ípsilon (Entrada 1)",
+      "coordinates": {
+        "x": 25,
+        "y": 43
+      }
+    },
+    {
+      "key": "ipsilon_2",
+      "name": "Ípsilon (Entrada 2)",
+      "coordinates": {
+        "x": 22,
+        "y": 40
+      }
+    },
+    {
+      "key": "biblioteca",
+      "name": "Biblioteca",
+      "coordinates": {
+        "x": 35,
+        "y": 50
+      }
+    },
+    {
+      "key": "centro_convivencia",
+      "name": "Centro de Convivência",
+      "coordinates": {
+        "x": 35,
+        "y": 61
+      }
+    },
+    {
+      "key": "capela_metodista",
+      "name": "Capela Metodista",
+      "coordinates": {
+        "x": 43,
+        "y": 46
+      }
+    }
+  ]
+}

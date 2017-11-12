@@ -3,10 +3,12 @@ import {Http, Response} from "@angular/http";
 import {Building} from "../pages/buildings/building/domain/building-info";
 import {Observable} from "rxjs";
 import 'rxjs/add/operator/map';
+import {BuildingCoordinate} from "../pages/buildings/building/domain/building-coordinate";
 
 @Injectable()
 export class BuildingsInfoService {
   private infoUrl = 'assets/properties/buildings-data.json';
+  private coordinatesUrl = 'assets/properties/buildings-coordinates-data.json';
 
   constructor(private http: Http) {
   }
@@ -19,6 +21,12 @@ export class BuildingsInfoService {
 
   sortByName(currentName, nextName) {
     return currentName['name'].localeCompare(nextName['name']);
+  }
+
+  getBuildingsCoordinatesInfo(): Observable<BuildingCoordinate[]> {
+    return this.http.get(this.coordinatesUrl)
+      .map(response => JSON.parse(response.text()).data.sort(this.sortByName) as BuildingCoordinate[])
+      .catch(this.handleError);
   }
 
   private handleError(error: Response | any) {

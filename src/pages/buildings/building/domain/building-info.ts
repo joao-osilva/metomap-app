@@ -5,5 +5,4 @@ export interface Building {
   name: string;
   img: string;
   rooms: Room[];
-  coordinates: {x: number, y: number};
 }

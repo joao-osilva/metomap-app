@@ -1,15 +1,15 @@
 import {Component} from '@angular/core';
 import {NavController, AlertController} from 'ionic-angular';
 import {BuildingsInfoService} from "../../services/buildings-info.service";
-import {Building} from "../buildings/building/domain/building-info";
 import {MapPage} from "./map/map";
+import {BuildingCoordinate} from "../buildings/building/domain/building-coordinate";
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
-  buildings: Building[];
+  buildings: BuildingCoordinate[];
   fromBuilding: string;
   toBuilding: string;
   fromOpts: { title: string, subTitle: string };
@@ -46,7 +46,7 @@ export class HomePage {
   }
 
   getBuildingsInfo() {
-    this.buildingsInfoService.getAllBuildingsInfo()
+    this.buildingsInfoService.getBuildingsCoordinatesInfo()
                              .subscribe(data => this.buildings = data,
                                         error => console.log(error));
   }
