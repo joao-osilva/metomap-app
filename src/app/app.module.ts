@@ -14,6 +14,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { BuildingsInfoService } from '../services/buildings-info.service';
 import { AboutInfoService } from '../services/about-info.service';
 import { EnvironmentInfoService } from '../services/environment-info.service';
+import { TilemapInfoService } from '../services/tilemap-info.service';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -57,6 +58,7 @@ import { CallNumber } from '@ionic-native/call-number';
     BuildingsInfoService,
     AboutInfoService,
     EnvironmentInfoService,
+    TilemapInfoService,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
