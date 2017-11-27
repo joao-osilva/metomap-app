@@ -3,7 +3,7 @@
     {
       "key": "gama",
       "name": "Gama",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/gama.jpg",
       "rooms": [
         {
           "number": "G-540",
@@ -15,7 +15,7 @@
     {
       "key": "psi",
       "name": "Psi",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/psi.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -27,7 +27,7 @@
     {
       "key": "salao_nobre",
       "name": "Salão Nobre",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/salao-nobre.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -39,7 +39,7 @@
     {
       "key": "cc_teo",
       "name": "C.C Teo",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/cc-teo.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -51,7 +51,7 @@
     {
       "key": "lambda",
       "name": "Lambda",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/lambda.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -62,8 +62,8 @@
     },
     {
       "key": "atendimento_aluno",
-      "name": "Atendimento Aluno",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "name": "Atendimento ao Aluno",
+      "img": "assets/img/atendimento-ao-aluno.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -75,7 +75,7 @@
     {
       "key": "omicron",
       "name": "Omicrôn",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/omicron.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -87,7 +87,7 @@
     {
       "key": "sigma",
       "name": "Sigma",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/sigma.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -99,7 +99,7 @@
     {
       "key": "reitoria",
       "name": "Reitoria",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/reitoria.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -111,7 +111,7 @@
     {
       "key": "epsilon",
       "name": "Épsilon",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/epsilon.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -123,7 +123,7 @@
     {
       "key": "ro",
       "name": "Ró",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/ro.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -134,8 +134,8 @@
     },
     {
       "key": "casa_eventos",
-      "name": "Casa de Eventos",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "name": "Cental de Eventos",
+      "img": "assets/img/central-eventos.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -147,7 +147,7 @@
     {
       "key": "eta",
       "name": "Eta",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/eta.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -159,7 +159,7 @@
     {
       "key": "alfa",
       "name": "Alfa",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/alfa.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -171,7 +171,7 @@
     {
       "key": "delta",
       "name": "Delta",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/delta.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -183,7 +183,7 @@
     {
       "key": "anexo_fi",
       "name": "Anexo Fi",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/anexo-fi.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -195,7 +195,7 @@
     {
       "key": "capa",
       "name": "Capa",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/capa.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -207,7 +207,7 @@
     {
       "key": "iota",
       "name": "Iota",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/iota.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -219,7 +219,7 @@
     {
       "key": "teta",
       "name": "Teta",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/teta.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -231,7 +231,7 @@
     {
       "key": "ginasio_esportes",
       "name": "Ginásio de Esportes",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/ginasio-esportes.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -243,7 +243,7 @@
     {
       "key": "ipsilon",
       "name": "Ípsilon",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/ipsilon.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -255,7 +255,7 @@
     {
       "key": "biblioteca",
       "name": "Biblioteca",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/biblioteca.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -267,7 +267,7 @@
     {
       "key": "centro_convivencia",
       "name": "Centro de Convivência",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/centro-de-convivencia.jpg",
       "rooms": [
         {
           "number": "P-540",
@@ -279,7 +279,7 @@
     {
       "key": "capela_metodista",
       "name": "Capela Metodista",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/capela.jpg",
       "rooms": [
         {
           "number": "P-540",
