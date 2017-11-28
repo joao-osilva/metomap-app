@@ -10,7 +10,11 @@
   </div>
   <div class="item-div">
     <ion-item>
+<<<<<<< HEAD
       <ion-label floating>Selecione seu ponto de origem</ion-label>
+=======
+      <ion-label floating>Selecione o ponto de origem</ion-label>
+>>>>>>> ccbf4ef8defd955732ec743afb45492c08c07a2a
       <ion-select [(ngModel)]="fromBuilding" cancelText="Cancelar" [selectOptions]="fromOpts"
                   (ionChange)="buildingsSelected()">
         <ion-option *ngFor="let building of buildings" [value]="building?.key">{{building?.name}}</ion-option>
@@ -18,7 +22,11 @@
     </ion-item>
 
     <ion-item>
+<<<<<<< HEAD
       <ion-label floating>Selecione seu ponto de destino</ion-label>
+=======
+      <ion-label floating>Selecione o ponto de destino</ion-label>
+>>>>>>> ccbf4ef8defd955732ec743afb45492c08c07a2a
       <ion-select [(ngModel)]="toBuilding" cancelText="Cancelar" [selectOptions]="toOpts"
                   (ionChange)="buildingsSelected()">
         <ion-option *ngFor="let building of buildings" [value]="building?.key">{{building?.name}}</ion-option>
