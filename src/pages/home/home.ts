@@ -62,6 +62,8 @@ export class HomePage {
       this.showAlert('Escolha pontos diferentes!', 'A origem e o destino não podem ser iguais');
     }
     else {
+      console.log('from>>>'+this.fromBuilding);
+      console.log('to>>>'+this.toBuilding);
       this.navCtrl.push(MapPage, {startNode: this.getBuildingCoordinates(this.fromBuilding),
                                   endNode: this.getBuildingCoordinates(this.toBuilding)});
     }
