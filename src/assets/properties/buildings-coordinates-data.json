@@ -66,7 +66,7 @@
     },
     {
       "key": "omicron",
-      "name": "Omicrôn",
+      "name": "Ômicron",
       "coordinates": {
         "x": 75,
         "y": 44
@@ -180,15 +180,15 @@
       "key": "anexo_fi",
       "name": "Anexo Fi",
       "coordinates": {
-        "x": 26,
-        "y": 92
+        "x": 32,
+        "y": 88
       }
     },
     {
       "key": "capa_1",
       "name": "Capa (Entrada 1)",
       "coordinates": {
-        "x": 19,
+        "x": 17,
         "y": 82
       }
     },

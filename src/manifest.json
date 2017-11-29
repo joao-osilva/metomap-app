@@ -1,13 +1,22 @@
 {
-  "name": "Ionic",
-  "short_name": "Ionic",
+  "name": "MetoMap",
+  "short_name": "MetoMap",
   "start_url": "index.html",
+  "description": "Aplicativo de localização da Universidade Metodista de São Paulo(campus Rudge Ramos).",
   "display": "standalone",
   "icons": [{
-    "src": "assets/imgs/logo.png",
+    "src": "assets/icon/metomap-homescreen-icon.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
-  "background_color": "#4e8ef7",
-  "theme_color": "#4e8ef7"
+  "background_color": "#F09338",
+  "theme_color": "#F09338",
+  "orientation": "portrait",
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=io.throughaglass.metomap",
+      "id": "io.throughaglass.metomap"
+    }
+  ]
 }
