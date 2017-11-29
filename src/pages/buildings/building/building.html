@@ -12,7 +12,7 @@
     </ion-card-content>
     <ion-list>
       <ion-item *ngFor="let room of buildingInfo?.rooms">
-        {{room.name}}
+        <span>{{room.name}}</span>
         <button ion-button outline item-left>{{room.number}}</button>
         <button ion-button item-right clear icon-only *ngIf="room.phone" (click)="onCallRoom(room.phone)">
           <ion-icon name="call"></ion-icon>

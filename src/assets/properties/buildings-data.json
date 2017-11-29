@@ -3,289 +3,374 @@
     {
       "key": "gama",
       "name": "Gama",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
-      "rooms": [
-        {
-          "number": "G-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
-      ]
+      "img": "assets/img/gama.jpg",
+      "rooms": []
     },
     {
       "key": "psi",
       "name": "Psi",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
-      "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
-      ]
+      "img": "assets/img/psi.jpg",
+      "rooms": []
     },
     {
       "key": "salao_nobre",
       "name": "Salão Nobre",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
-      "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
-      ]
+      "img": "assets/img/salao-nobre.jpg",
+      "rooms": []
     },
     {
       "key": "cc_teo",
       "name": "C.C Teo",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
-      "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
-      ]
+      "img": "assets/img/cc-teo.jpg",
+      "rooms": []
     },
     {
       "key": "lambda",
       "name": "Lambda",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/lambda.jpg",
       "rooms": [
         {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
+          "number": "L-218",
+          "name": "Paramentação"
+        },
+        {
+          "number": "L-221",
+          "name": "Lab. de Prótese"
+        },
+        {
+          "number": "L-236",
+          "name": "Clínica ortodôntica"
+        },
+        {
+          "number": "L-244",
+          "name": "Radiologia"
+        },
+        {
+          "number": "L-263",
+          "name": "Central de Esterilização"
+        },
+        {
+          "number": "L-315",
+          "name": "Lab. Multidisciplinar Odontológico"
+        },
+        {
+          "number": "L-349",
+          "name": "Audiências e tribunal de júri"
+        },
+        {
+          "number": "L-450",
+          "name": "Núcelo de Práticas Judiciais"
+        },
+        {
+          "number": "L-503",
+          "name": "Escola de Comunicação, Educação e Humanidades"
         }
       ]
     },
     {
       "key": "atendimento_aluno",
-      "name": "Atendimento Aluno",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "name": "Central de Relacionamento",
+      "img": "assets/img/atendimento-ao-aluno.jpg",
       "rooms": [
         {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
+          "number": "S-N",
+          "name": "Atendimento ao Aluno",
+          "phone": "+55 (11) 4366-5000"
         }
       ]
     },
     {
       "key": "omicron",
-      "name": "Omicrôn",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "name": "Ômicron",
+      "img": "assets/img/omicron.jpg",
       "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
       ]
     },
     {
       "key": "sigma",
       "name": "Sigma",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/sigma.jpg",
       "rooms": [
         {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
+          "number": "1ºAndar",
+          "name": "Anfiteatro Sigma"
+        },
+        {
+          "number": "S-203",
+          "name": "Núcleo de Arte e Cultura",
+          "phone": "+55 (11) 4366-5598"
         }
       ]
     },
     {
       "key": "reitoria",
       "name": "Reitoria",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/reitoria.jpg",
       "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
       ]
     },
     {
       "key": "epsilon",
       "name": "Épsilon",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/epsilon.jpg",
       "rooms": [
         {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
+          "number": "E-119",
+          "name": "Lab. Multidisciplinar"
+        },
+        {
+          "number": "E-309",
+          "name": "Agência EETI",
+          "phone": "+55 (11) 4366-5551"
+        },
+        {
+          "number": "E-319",
+          "name": "Lab. de Anatomia"
+        },
+        {
+          "number": "E-416",
+          "name": "Central de Estágio"
+        },
+        {
+          "number": "E-518",
+          "name": "Sala de preparos laboratórios"
+        },
+        {
+          "number": "E-520",
+          "name": "Autos findos e TCC"
         }
       ]
     },
     {
       "key": "ro",
       "name": "Ró",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/ro.jpg",
       "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
       ]
     },
     {
       "key": "casa_eventos",
-      "name": "Casa de Eventos",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "name": "Cental de Eventos",
+      "img": "assets/img/central-eventos.jpg",
       "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
       ]
     },
     {
       "key": "eta",
       "name": "Eta",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/eta.jpg",
       "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
       ]
     },
     {
       "key": "alfa",
       "name": "Alfa",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/alfa.jpg",
       "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
       ]
     },
     {
       "key": "delta",
       "name": "Delta",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/delta.jpg",
       "rooms": [
         {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
+          "number": "D-133",
+          "name": "Repografia",
+          "phone": "+55 (11) 4366-5518"
+        },
+        {
+          "number": "D-136",
+          "name": "Setor de Produtos Artesanais",
+          "phone": "+55 (11) 4366-5551"
+        },
+        {
+          "number": "D-138",
+          "name": "Gestão de Documentos e Arquivos"
+        },
+        {
+          "number": "D-141",
+          "name": "Relação Integrada"
+        },
+        {
+          "number": "D-235",
+          "name": "Auditório Delta"
+        },
+        {
+          "number": "D-244",
+          "name": "Setor de estagio EETI"
+        },
+        {
+          "number": "D-312",
+          "name": "Lab. Direção e Arte"
+        },
+        {
+          "number": "D-334",
+          "name": "Escola de Engenharias, Tecnologia e Informação",
+          "phone": "+55 (11) 4366-5601"
+        },
+        {
+          "number": "D-357",
+          "name": "Lab. de Áudio"
+        },
+        {
+          "number": "D-412",
+          "name": "Mixagem"
+        },
+        {
+          "number": "D-445",
+          "name": "Ilha de edição I"
+        },
+        {
+          "number": "D-447",
+          "name": "Ilha de edição II"
+        },
+        {
+          "number": "D-450",
+          "name": "Estúdio de Rádio e TV",
+          "phone": "+55 (11) 4366-5882"
+        },
+        {
+          "number": "4º Andar",
+          "name": "Reserva e Retirada de Equipamentos"
+        },
+        {
+          "number": "S-N",
+          "name": "Processo Seletivo",
+          "phone": "+55 (11) 4366-5508"
         }
       ]
     },
     {
       "key": "anexo_fi",
       "name": "Anexo Fi",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/anexo-fi.jpg",
       "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
       ]
     },
     {
       "key": "capa",
       "name": "Capa",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/capa.jpg",
       "rooms": [
         {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
+          "number": "C-116",
+          "name": "AGICOM",
+          "phone": "+55 (11) 4366-5545"
+        },
+        {
+          "number": "C-442",
+          "name": "Anfiteatro Capa"
+        },
+        {
+          "number": "C-323",
+          "name": "Cátedra Unesco/Umesp"
+        },
+        {
+          "number": "C-321",
+          "name": "Coordenação de Pós-Graduação"
+        },
+        {
+          "number": "C-303",
+          "name": "Escritório de apoio a pesquisa / Comitê de ética em pesquisa"
+        },
+        {
+          "number": "C-125",
+          "name": "Estúdio"
+        },
+        {
+          "number": "C-102",
+          "name": "Projetos Integrados"
+        },
+        {
+          "number": "C-309",
+          "name": "Sala de Defesas"
+        },
+        {
+          "number": "C-216",
+          "name": "Sala dos Professores"
         }
       ]
     },
     {
       "key": "iota",
       "name": "Iota",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/iota.jpg",
       "rooms": [
         {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
+          "number": "I-103",
+          "name": "Anfiteatro Iota"
+        },
+        {
+          "number": "I-209",
+          "name": "Auditório Iota Mezanino"
+        },
+        {
+          "number": "I-282",
+          "name": "Sala dos Professores"
+        },
+        {
+          "number": "I-288",
+          "name": "Lab. Fisioterapia"
+        },
+        {
+          "number": "I-113",
+          "name": "Lab. Fisioterapia"
+        },
+        {
+          "number": "I-290",
+          "name": "Núcleo Docente Estruturante"
+        },
+        {
+          "number": "I-294",
+          "name": "Escola de Ciências Médicas e da Saúde"
         }
       ]
     },
     {
       "key": "teta",
       "name": "Teta",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/teta.jpg",
       "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
       ]
     },
     {
       "key": "ginasio_esportes",
       "name": "Ginásio de Esportes",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/ginasio-esportes.jpg",
       "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
       ]
     },
     {
       "key": "ipsilon",
       "name": "Ípsilon",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/ipsilon.jpg",
       "rooms": [
         {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
+          "number": "S-N",
+          "name": "Complexo Poliesportivo"
         }
       ]
     },
     {
       "key": "biblioteca",
       "name": "Biblioteca",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/biblioteca.jpg",
       "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
       ]
     },
     {
       "key": "centro_convivencia",
       "name": "Centro de Convivência",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/centro-de-convivencia.jpg",
       "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
       ]
     },
     {
       "key": "capela_metodista",
       "name": "Capela Metodista",
-      "img": "assets/img/img-campus_rudge_ramos.jpg",
+      "img": "assets/img/capela.jpg",
       "rooms": [
-        {
-          "number": "P-540",
-          "name": "Secretaria de exatas",
-          "phone": "(11) 1234-5678"
-        }
       ]
     }
   ]

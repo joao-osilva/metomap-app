@@ -15,8 +15,6 @@
       "name": "Valdemir França",
       "img": "assets/img/img-valdemir.png",
       "socialNetworks": {
-        "linkedin": "@valdemir",
-        "twitter": "@valdemir",
         "github": "@valdeco"
       }
     },
@@ -24,21 +22,13 @@
       "key": "fabio_proetti",
       "name": "Fábio Proetti",
       "img": "assets/img/img-fabio.png",
-      "socialNetworks": {
-        "linkedin": "@fabio",
-        "twitter": "@fabio",
-        "googleplus": "@fabio"
-      }
+      "socialNetworks": {}
     },
     {
       "key": "daiane_araujo",
       "name": "Daiane Araújo",
       "img": "assets/img/img-daiana.png",
-      "socialNetworks": {
-        "linkedin": "@daiane",
-        "twitter": "@daiane",
-        "googleplus": "@daiane"
-      }
+      "socialNetworks": {}
     },
     {
       "key": "rafael_sakurai",

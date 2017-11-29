@@ -15,6 +15,7 @@ export class BuildingsPage {
   searchQuery: string;
 
   constructor(private navCtrl: NavController, private buildingsInfoService: BuildingsInfoService) {
+    this.getBuildingsInfo();
   }
 
   ionViewWillEnter() {
@@ -52,12 +53,14 @@ export class BuildingsPage {
       result = true;
     }
 
-    building.rooms.filter((room) => {
-      if(room.number.toLowerCase().indexOf(val.toLowerCase()) > -1 ||
-        room.name.toLowerCase().indexOf(val.toLowerCase()) > -1) {
-        result = true;
-      }
-    })
+    if (building.rooms.length > 1) {
+      building.rooms.filter((room) => {
+        if(room.number.toLowerCase().indexOf(val.toLowerCase()) > -1 ||
+          room.name.toLowerCase().indexOf(val.toLowerCase()) > -1) {
+          result = true;
+        }
+      })
+    }
 
     return result ? result: false;
   }
