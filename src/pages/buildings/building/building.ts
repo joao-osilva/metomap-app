@@ -14,7 +14,7 @@ export class BuildingPage {
   buildingInfo: Building;
 
   constructor(private navParams: NavParams,
-              private buildingsInfoService: BuildingsInfoService,              
+              private buildingsInfoService: BuildingsInfoService,
               private callNumber: CallNumber) {
     this.buildingKey = this.navParams.get('buildingKey');
   }
@@ -34,7 +34,7 @@ export class BuildingPage {
 
     this.callNumber.callNumber(num, true)
                    .then(() => console.log('calling number ' + phoneNumber))
-                   .catch(() => console.log('error launching dialer...'));
+                   .catch((e) => console.log('error launching dialer... | e: ' + e));
   }
 
 }
